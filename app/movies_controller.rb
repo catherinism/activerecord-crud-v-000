@@ -50,7 +50,7 @@ end
 
 def can_find_the_first_item_from_the_database_using_id
   binding.pry
-  Movie.first.find(id).title
+  Movie.first
 end
 
 def can_find_by_multiple_attributes
