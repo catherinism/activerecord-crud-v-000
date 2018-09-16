@@ -69,8 +69,8 @@ end
 def can_be_found_updated_and_saved
   # Updtate the title "Awesome Flick" to "Even Awesomer Flick", save it, then return it
   Movie.create(title: "Awesome Flick")
-  Movie.find
   Movie.save
+  Movie.can_find_the_first_item_from_the_database_using_id
   Movie
 end
 
